@@ -1,0 +1,469 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F452 ]
+[d frameptr 4065 ]
+"4 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"9 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\nf_sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"22 C:\Users\Boostocska\OneDrive\OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség\University\Year3\EEE6017-AdvancedEmbeddedSystems\Assignment\Assignment.X\libs/LCD.c
+[v _LCD_DATA LCD_DATA `(v  1 e 1 0 ]
+"44
+[v _LCD_CMD LCD_CMD `(v  1 e 1 0 ]
+"62
+[v _LCD_Clear LCD_Clear `(v  1 e 1 0 ]
+"71
+[v _LCD_Set_Cursor LCD_Set_Cursor `(v  1 e 1 0 ]
+"95
+[v _LCD_Init LCD_Init `(v  1 e 1 0 ]
+"121
+[v _LCD_Write_Char LCD_Write_Char `(v  1 e 1 0 ]
+"141
+[v _LCD_Write_String LCD_Write_String `(v  1 e 1 0 ]
+"69 C:\Users\Boostocska\OneDrive\OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség\University\Year3\EEE6017-AdvancedEmbeddedSystems\Assignment\Assignment.X\main.c
+[v _init init `(v  1 e 1 0 ]
+"111
+[v _main main `(v  1 e 1 0 ]
+"289
+[v _pwmSet pwmSet `(v  1 e 1 0 ]
+"297
+[v _setState setState `(v  1 e 1 0 ]
+"341
+[v _closeGate closeGate `(v  1 e 1 0 ]
+"345
+[v _openGate openGate `(v  1 e 1 0 ]
+"349
+[v _disableBuzzer disableBuzzer `(v  1 e 1 0 ]
+"353
+[v _toggleBuzzer toggleBuzzer `(v  1 e 1 0 ]
+[v i2_toggleBuzzer toggleBuzzer `(v  1 e 1 0 ]
+"363
+[v _handleGate handleGate `(v  1 e 1 0 ]
+"390
+[v _readMatchCode readMatchCode `(uc  1 e 1 0 ]
+"416
+[v _keypadPolling keypadPolling `(uc  1 e 1 0 ]
+"440
+[v _erPolling erPolling `(a  1 e 1 0 ]
+"447
+[v _pirPolling pirPolling `(a  1 e 1 0 ]
+"454
+[v _sysBtnPolling sysBtnPolling `(a  1 e 1 0 ]
+"461
+[v _rstBtnPolling rstBtnPolling `(a  1 e 1 0 ]
+"468
+[v _isr isr `IIH(v  1 e 1 0 ]
+"53 C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f452.h
+[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
+"198
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"323
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+[s S278 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"365
+[s S287 . 1 `uc 1 T1OSO 1 0 :1:0 
+`uc 1 T1OSI 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 SCK 1 0 :1:3 
+`uc 1 SDI 1 0 :1:4 
+`uc 1 SDO 1 0 :1:5 
+`uc 1 TX 1 0 :1:6 
+`uc 1 RX 1 0 :1:7 
+]
+[s S296 . 1 `uc 1 T1CKI 1 0 :1:0 
+`uc 1 CCP2 1 0 :1:1 
+`uc 1 CCP1 1 0 :1:2 
+`uc 1 SCL 1 0 :1:3 
+`uc 1 SDA 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CK 1 0 :1:6 
+`uc 1 DT 1 0 :1:7 
+]
+[s S305 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 PA2 1 0 :1:1 
+`uc 1 PA1 1 0 :1:2 
+]
+[u S309 . 1 `S278 1 . 1 0 `S287 1 . 1 0 `S296 1 . 1 0 `S305 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES309  1 e 1 @3970 ]
+"490
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+[s S178 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"521
+[s S187 . 1 `uc 1 PSP0 1 0 :1:0 
+`uc 1 PSP1 1 0 :1:1 
+`uc 1 PSP2 1 0 :1:2 
+`uc 1 PSP3 1 0 :1:3 
+`uc 1 PSP4 1 0 :1:4 
+`uc 1 PSP5 1 0 :1:5 
+`uc 1 PSP6 1 0 :1:6 
+`uc 1 PSP7 1 0 :1:7 
+]
+[s S196 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 SS2 1 0 :1:7 
+]
+[u S199 . 1 `S178 1 . 1 0 `S187 1 . 1 0 `S196 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES199  1 e 1 @3971 ]
+"1211
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"1409
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"1649
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"1889
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"3383
+[v _CCP2CON CCP2CON `VEuc  1 e 1 @4026 ]
+[s S137 . 1 `uc 1 CCP2M 1 0 :4:0 
+`uc 1 DC2B 1 0 :2:4 
+]
+"3411
+[s S140 . 1 `uc 1 CCP2M0 1 0 :1:0 
+`uc 1 CCP2M1 1 0 :1:1 
+`uc 1 CCP2M2 1 0 :1:2 
+`uc 1 CCP2M3 1 0 :1:3 
+`uc 1 DC2B0 1 0 :1:4 
+`uc 1 DC2B1 1 0 :1:5 
+]
+[s S147 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 CCP2Y 1 0 :1:4 
+`uc 1 CCP2X 1 0 :1:5 
+]
+[s S151 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 DCCPX 1 0 :1:5 
+]
+[u S154 . 1 `S137 1 . 1 0 `S140 1 . 1 0 `S147 1 . 1 0 `S151 1 . 1 0 ]
+[v _CCP2CONbits CCP2CONbits `VES154  1 e 1 @4026 ]
+"3478
+[v _CCPR2L CCPR2L `VEuc  1 e 1 @4027 ]
+"4225
+[v _T2CON T2CON `VEuc  1 e 1 @4042 ]
+"4296
+[v _PR2 PR2 `VEuc  1 e 1 @4043 ]
+"4413
+[v _T1CON T1CON `VEuc  1 e 1 @4045 ]
+"4541
+[v _RCON RCON `VEuc  1 e 1 @4048 ]
+"4790
+[v _T0CON T0CON `VEuc  1 e 1 @4053 ]
+[s S238 . 1 `uc 1 T0PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 T08BIT 1 0 :1:6 
+`uc 1 TMR0ON 1 0 :1:7 
+]
+"4810
+[s S245 . 1 `uc 1 T0PS0 1 0 :1:0 
+`uc 1 T0PS1 1 0 :1:1 
+`uc 1 T0PS2 1 0 :1:2 
+]
+[u S249 . 1 `S238 1 . 1 0 `S245 1 . 1 0 ]
+[v _T0CONbits T0CONbits `VES249  1 e 1 @4053 ]
+"5139
+[v _INTCON3 INTCON3 `VEuc  1 e 1 @4080 ]
+"5231
+[v _INTCON2 INTCON2 `VEuc  1 e 1 @4081 ]
+"5308
+[v _INTCON INTCON `VEuc  1 e 1 @4082 ]
+[s S346 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"5345
+[s S355 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S364 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S368 . 1 `S346 1 . 1 0 `S355 1 . 1 0 `S364 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES368  1 e 1 @4082 ]
+"6622
+[v _RC4 RC4 `VEb  1 e 0 @31764 ]
+"6625
+[v _RC5 RC5 `VEb  1 e 0 @31765 ]
+"6628
+[v _RC6 RC6 `VEb  1 e 0 @31766 ]
+"6631
+[v _RC7 RC7 `VEb  1 e 0 @31767 ]
+"6670
+[v _RD2 RD2 `VEb  1 e 0 @31770 ]
+"6673
+[v _RD3 RD3 `VEb  1 e 0 @31771 ]
+"6676
+[v _RD4 RD4 `VEb  1 e 0 @31772 ]
+"7075
+[v _TRISC6 TRISC6 `VEb  1 e 0 @31910 ]
+"7093
+[v _TRISD4 TRISD4 `VEb  1 e 0 @31916 ]
+"37 C:\Users\Boostocska\OneDrive\OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség\University\Year3\EEE6017-AdvancedEmbeddedSystems\Assignment\Assignment.X\main.c
+[v _keypad keypad `C[4][4]uc  1 e 16 0 ]
+"43
+[v _activationCode activationCode `C[5]uc  1 e 5 0 ]
+"44
+[v _resetCode resetCode `C[5]uc  1 e 5 0 ]
+"45
+[v _preciseTimer preciseTimer `ul  1 e 4 0 ]
+"47
+[v _gateState gateState `a  1 e 1 0 ]
+"48
+[v _currentState currentState `uc  1 e 1 0 ]
+"111
+[v _main main `(v  1 e 1 0 ]
+{
+"253
+[v main@i_428 i `i  1 a 2 40 ]
+"229
+[v main@i_427 i `i  1 a 2 38 ]
+"205
+[v main@matchCodeResponse_425 matchCodeResponse `uc  1 a 1 33 ]
+"181
+[v main@i_424 i `i  1 a 2 36 ]
+"124
+[v main@i i `i  1 a 2 34 ]
+"262
+[v main@isRstBtnPressedPtr isRstBtnPressedPtr `*.39a  1 a 2 42 ]
+"263
+[v main@matchCodeResponse_431 matchCodeResponse `uc  1 a 1 29 ]
+"261
+[v main@isRstBtnPressed isRstBtnPressed `a  1 a 1 28 ]
+"162
+[v main@i_423 i `i  1 a 2 30 ]
+"141
+[v main@matchCodeResponse matchCodeResponse `uc  1 a 1 32 ]
+"116
+[v main@isSysBtnPressedPtr isSysBtnPressedPtr `*.39a  1 a 2 44 ]
+"115
+[v main@isSysBtnPressed isSysBtnPressed `a  1 a 1 46 ]
+"284
+} 0
+"454
+[v _sysBtnPolling sysBtnPolling `(a  1 e 1 0 ]
+{
+"459
+} 0
+"461
+[v _rstBtnPolling rstBtnPolling `(a  1 e 1 0 ]
+{
+"466
+} 0
+"390
+[v _readMatchCode readMatchCode `(uc  1 e 1 0 ]
+{
+"393
+[v readMatchCode@pressedKey pressedKey `uc  1 a 1 20 ]
+"391
+[v readMatchCode@codePosition codePosition `i  1 a 2 18 ]
+"390
+[v readMatchCode@codeToMatch codeToMatch `*.25uc  1 p 2 12 ]
+[v readMatchCode@isEnabled isEnabled `*.39*.39a  1 p 2 14 ]
+"414
+} 0
+"416
+[v _keypadPolling keypadPolling `(uc  1 e 1 0 ]
+{
+"421
+[v keypadPolling@j j `i  1 a 2 10 ]
+"419
+[v keypadPolling@i i `i  1 a 2 8 ]
+"418
+[v keypadPolling@pressedKey pressedKey `uc  1 a 1 7 ]
+"417
+[v keypadPolling@keyDetected keyDetected `a  1 a 1 6 ]
+"438
+} 0
+"440
+[v _erPolling erPolling `(a  1 e 1 0 ]
+{
+"445
+} 0
+"447
+[v _pirPolling pirPolling `(a  1 e 1 0 ]
+{
+"452
+} 0
+"69
+[v _init init `(v  1 e 1 0 ]
+{
+"109
+} 0
+"297
+[v _setState setState `(v  1 e 1 0 ]
+{
+[v setState@targetState targetState `i  1 p 2 22 ]
+"339
+} 0
+"353
+[v _toggleBuzzer toggleBuzzer `(v  1 e 1 0 ]
+{
+[v toggleBuzzer@isEmergency isEmergency `a  1 a 1 wreg ]
+[v toggleBuzzer@isEmergency isEmergency `a  1 a 1 wreg ]
+[v toggleBuzzer@isEmergency isEmergency `a  1 a 1 3 ]
+"358
+} 0
+"345
+[v _openGate openGate `(v  1 e 1 0 ]
+{
+"347
+} 0
+"341
+[v _closeGate closeGate `(v  1 e 1 0 ]
+{
+"343
+} 0
+"363
+[v _handleGate handleGate `(v  1 e 1 0 ]
+{
+[v handleGate@toOpen toOpen `a  1 a 1 wreg ]
+"380
+[v handleGate@i_473 i `i  1 a 2 20 ]
+"367
+[v handleGate@i i `i  1 a 2 18 ]
+"363
+[v handleGate@toOpen toOpen `a  1 a 1 wreg ]
+[v handleGate@isOpen isOpen `*.39a  1 p 2 12 ]
+[v handleGate@callback callback `*.37(v  1 p 2 14 ]
+"366
+[v handleGate@toOpen toOpen `a  1 a 1 17 ]
+"388
+} 0
+"289
+[v _pwmSet pwmSet `(v  1 e 1 0 ]
+{
+[v pwmSet@duty duty `i  1 p 2 2 ]
+"292
+} 0
+"349
+[v _disableBuzzer disableBuzzer `(v  1 e 1 0 ]
+{
+"351
+} 0
+"141 C:\Users\Boostocska\OneDrive\OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség\University\Year3\EEE6017-AdvancedEmbeddedSystems\Assignment\Assignment.X\libs/LCD.c
+[v _LCD_Write_String LCD_Write_String `(v  1 e 1 0 ]
+{
+"143
+[v LCD_Write_String@i i `i  1 a 2 10 ]
+"141
+[v LCD_Write_String@str str `*.35uc  1 p 2 6 ]
+"146
+} 0
+"121
+[v _LCD_Write_Char LCD_Write_Char `(v  1 e 1 0 ]
+{
+[v LCD_Write_Char@Data Data `uc  1 a 1 wreg ]
+"123
+[v LCD_Write_Char@High4 High4 `uc  1 a 1 4 ]
+[v LCD_Write_Char@Low4 Low4 `uc  1 a 1 3 ]
+"121
+[v LCD_Write_Char@Data Data `uc  1 a 1 wreg ]
+"124
+[v LCD_Write_Char@Data Data `uc  1 a 1 5 ]
+"137
+} 0
+"71
+[v _LCD_Set_Cursor LCD_Set_Cursor `(v  1 e 1 0 ]
+{
+[v LCD_Set_Cursor@r r `uc  1 a 1 wreg ]
+"73
+[v LCD_Set_Cursor@Temp Temp `uc  1 a 1 8 ]
+[v LCD_Set_Cursor@High4 High4 `uc  1 a 1 7 ]
+[v LCD_Set_Cursor@Low4 Low4 `uc  1 a 1 6 ]
+"71
+[v LCD_Set_Cursor@r r `uc  1 a 1 wreg ]
+[v LCD_Set_Cursor@c c `uc  1 p 1 4 ]
+"74
+[v LCD_Set_Cursor@r r `uc  1 a 1 5 ]
+"90
+} 0
+"62
+[v _LCD_Clear LCD_Clear `(v  1 e 1 0 ]
+{
+"67
+} 0
+"95
+[v _LCD_Init LCD_Init `(v  1 e 1 0 ]
+{
+"117
+} 0
+"44
+[v _LCD_CMD LCD_CMD `(v  1 e 1 0 ]
+{
+[v LCD_CMD@CMD CMD `uc  1 a 1 wreg ]
+[v LCD_CMD@CMD CMD `uc  1 a 1 wreg ]
+"47
+[v LCD_CMD@CMD CMD `uc  1 a 1 3 ]
+"57
+} 0
+"22
+[v _LCD_DATA LCD_DATA `(v  1 e 1 0 ]
+{
+[v LCD_DATA@Data Data `uc  1 a 1 wreg ]
+[v LCD_DATA@Data Data `uc  1 a 1 wreg ]
+"24
+[v LCD_DATA@Data Data `uc  1 a 1 2 ]
+"40
+} 0
+"468 C:\Users\Boostocska\OneDrive\OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség\University\Year3\EEE6017-AdvancedEmbeddedSystems\Assignment\Assignment.X\main.c
+[v _isr isr `IIH(v  1 e 1 0 ]
+{
+"481
+} 0
+"353
+[v i2_toggleBuzzer toggleBuzzer `(v  1 e 1 0 ]
+{
+[v i2toggleBuzzer@isEmergency isEmergency `a  1 a 1 wreg ]
+[v i2toggleBuzzer@isEmergency isEmergency `a  1 a 1 wreg ]
+[v i2toggleBuzzer@isEmergency isEmergency `a  1 a 1 1 ]
+"358
+} 0
